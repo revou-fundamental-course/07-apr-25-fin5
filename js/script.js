@@ -31,7 +31,7 @@ function validateForm() {
     return;
   }
 
-  // Preview data (bisa diganti tampil di halaman, tapi ini pake alert dulu)
+  // Preview data
   const preview =
     `--- Data Form ---\n` +
     `Nama   : ${name}\n` +
