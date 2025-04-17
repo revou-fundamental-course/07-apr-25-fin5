@@ -1,13 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fin Company</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header Content -->
+    <header class="main-header">
+      <!-- Logo -->
+      <div class="main-logo"></div>
+
+      <!-- Navigation* -->
+      <nav>
+        <a href="#home-section">Home</a>
+        <a href="#our-profile-section">Profile</a>
+        <a href="#portfolio-section">Portfolio</a>
+        <a href="#message-us-section">Message Us</a>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!-- Main Content -->
+    <main>
+      <!-- Home Section -->
+      <section id="home-section">
+        <header>
+          <h2>Hi, Welcome to my website</h2>
+        </header>
+
+        <!-- Banner Content* -->
+        <div class="banner-img banner-1"></div>
+        <div class="banner-img banner-2"></div>
+        <div class="banner-img banner-3"></div>
+
+        <!-- Banner Text -->
+        <article class="section-content">
+          <p>
+            Selamat datang di projek website kami! Kami senang bisa
+            memperkenalkan Fin Company kepada Anda. Website ini dirancang dengan
+            tujuan untuk memberikan pengalaman terbaik dalam mengakses berbagai
+            layanan kami. Di sini, Anda bisa mengetahui lebih banyak tentang
+            kami, melihat portfolio kami yang sudah kami kerjakan, dan
+            menghubungi kami langsung untuk berbagai pertanyaan atau kebutuhan.
+            Kami berharap dapat memberikan solusi terbaik untuk Anda dengan
+            layanan yang profesional dan terpercaya. Terima kasih telah
+            mengunjungi Fin Company!
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Our Profile Section -->
+      <section id="our-profile-section">
+        <header>
+          <h2>Profile</h2>
+        </header>
+
+        <!-- Our Profile Text -->
+        <article class="section-content">
+          <p>
+            Halo, saya seorang mahasiswa di Universitas Teknologi Yogyakarta
+            (UTY) dengan program studi Sistem Informasi. Selain kuliah, saya
+            sangat menikmati waktu luang dengan bermain billiard dan game. Saat
+            ini, saya sedang fokus pada pengerjaan tugas akhir semester yang
+            akan menjadi tantangan penting dalam perjalanan akademik saya. Saya
+            bersemangat untuk terus belajar dan mengembangkan keterampilan di
+            bidang teknologi informasi, serta siap menghadapi berbagai tantangan
+            yang ada di dunia profesional nantinya.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Portfolio Section -->
+      <section id="portfolio-section">
+        <header>
+          <h2>Portfolio</h2>
+        </header>
+
+        <!-- Portfolio Text -->
+        <article class="section-content">
+          <p>
+            Portfolio saya mencakup berbagai proyek yang saya kerjakan selama
+            studi di Universitas Teknologi Yogyakarta, terutama yang berhubungan
+            dengan sistem informasi dan pengembangan perangkat lunak. Beberapa
+            proyek yang saya banggakan antara lain pengembangan aplikasi
+            berbasis web dan sistem database untuk manajemen data. Setiap proyek
+            yang saya kerjakan tidak hanya mengasah keterampilan teknis saya,
+            tetapi juga kemampuan saya dalam bekerja secara tim dan
+            menyelesaikan masalah dengan solusi kreatif. Saya selalu berusaha
+            untuk memberikan yang terbaik dalam setiap proyek yang saya tangani,
+            dan terus berinovasi untuk mengikuti perkembangan teknologi terkini.
+          </p>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Message Us Section -->
+      <section id="message-us-section">
+        <header>
+          <h2>Message Us</h2>
+        </header>
+
+        <!-- Message Text -->
+        <article class="section-content">
+          <p>
+            Mungkin website ini belum sempurna dan masih banyak kekurangannya, mungkin bisa nih dikasi sarannya hehehe Terimakasih:D
+          </p>
+        </article>
+
+        <!-- Message Us Form -->
+        <form>
+          <div>
+            <!-- Inputan yang wajib diisi -->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div>
+            <!-- Inputan yang wajib diisi -->
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <div>
+            <!-- Inputan yang wajib diisi -->
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+          <div>
+            <!-- Inputan yang wajib diisi -->
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <div>
+            <button type="button" onclick="validateForm()">Submit</button>
+          </div>
+        </form>
+        <div id="result" style="margin-top: 20px"></div>
+      </section>
+    </main>
+
+    <hr />
+
+    <!-- Footer Content -->
+    <footer>
+      <span
+        >Copyright ©2025 All rights reserved | This website is made by
+        <a href="#home-section">Finn</a></span
+      >
+    </footer>
+
+    <!-- JS External -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
